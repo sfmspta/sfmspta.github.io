@@ -351,6 +351,10 @@ header {
     margin-bottom: 30px;
 }
 
+.subscribe button {
+    font-size: 15px;
+}
+
 .showcase {
     text-align: center;
     flex: 1;
