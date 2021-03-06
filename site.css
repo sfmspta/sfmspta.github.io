@@ -91,7 +91,8 @@ h1 p {
 
 h1 p.subtitle {
     font-size: 90%;
-    margin-top: 0;
+    line-height: 110%;
+    margin-top: 1ex;
     margin-bottom: 1em;
 }
 
@@ -339,8 +340,10 @@ header {
 .heading {
     font-size: 50px;
     color: #FBBC05;
-    font-weight: 700;
+    font-weight: normal;
     text-shadow: -1px 0px 1px #00000054;
+    margin: 0;
+    padding: 0 10px !important;
 }
 
 .brief {
