@@ -76,6 +76,10 @@ body {
     transition: all 0.2s linear;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Utilities */
 h1 {
     text-align: center;
@@ -444,17 +448,17 @@ header {
 }
 
 /* Plans */
-#plans {
+#get-involved {
     background: #f8faff;
 }
 
-#plans h1 {
+#get-involved h1 {
     text-align: center;
 }
 
 .plans-container {
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -518,6 +522,15 @@ header {
     box-shadow: inset 1px -1px 3px 0 #5ecc62;
 }
 
+.plan .bonus {
+    margin: 0;
+    background-color: #efe9ff;
+}
+
+.plan .bonus p {
+    margin: 10px;
+}
+
 .plan .pricing {
     font-size: 50px;
     padding: 40px;
@@ -573,6 +586,7 @@ header {
 footer {
     background-color: #0b0c10;
     color: #fff;
+    padding: 20px;
 }
 
 footer a {
