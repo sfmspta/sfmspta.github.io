@@ -64,10 +64,10 @@ body {
     font-family: 'Berkeley LT';
     src: url('fonts/itc-berkeley-oldstyle-lt-medium.eot');
     src: url('fonts/itc-berkeley-oldstyle-lt-medium.eot?#iefix') format('embedded-opentype'),
-         url('fonts/itc-berkeley-oldstyle-lt-medium.woff2') format('woff2'),
-         url('fonts/itc-berkeley-oldstyle-lt-medium.woff') format('woff'),
-         url('fonts/itc-berkeley-oldstyle-lt-medium.ttf')  format('truetype'),
-         url('fonts/itc-berkeley-oldstyle-lt-medium.svg#Berkeley LT') format('svg');
+        url('fonts/itc-berkeley-oldstyle-lt-medium.woff2') format('woff2'),
+        url('fonts/itc-berkeley-oldstyle-lt-medium.woff') format('woff'),
+        url('fonts/itc-berkeley-oldstyle-lt-medium.ttf') format('truetype'),
+        url('fonts/itc-berkeley-oldstyle-lt-medium.svg#Berkeley LT') format('svg');
 }
 
 * {
@@ -427,7 +427,7 @@ header {
 }
 
 #services .services-info {
-    padding: 60px;
+    padding: 20px 20px 10px 60px;
     width: 60%;
 }
 
